@@ -164,16 +164,18 @@ Please read our **CONTRIBUTING.md** before contributing.
 
 Developed with ❤️ by the **Microsoft Learn Student Chapter (MLSC), Thapar**.
 
-Nishita Thakur
-Vanya Walia
-Rishabh Sand
-Suditi Kumar
-Ganika Dudeja
-Hetal Bhasin
-Ashmita Bhatia
-Ankur Chawla
-Udit Chugh
-Pratham Bansal
+| Name |
+|------|
+| **Nishita Thakur** |
+| **Vanya Walia** |
+| **Rishabh Sand** |
+| **Suditi Kumar** |
+| **Ganika Dudeja** |
+| **Hetal Bhasin** |
+| **Ashmita Bhatia** |
+| **Ankur Chawla** |
+| **Udit Chugh** |
+| **Pratham Bansal** |
 ---
 
 ## 📜 License
