@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>One For All | Student Login</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="login.css">
+
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="background blur1"></div>
+
+<div class="background blur2"></div>
+
+
+
+<div class="page">
+
+
+
+<div class="brand-section">
+
+
+<div class="logo">
+
+OF
+
+</div>
+
+
+<h1>
+One For All
+</h1>
+
+
+<p>
+Your complete student companion for Thapar University
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="login-card">
+
+
+<h2>
+Welcome Back 👋
+</h2>
+
+
+<p class="subtitle">
+
+Enter your Thapar credentials to continue
+
+</p>
+
+
+
+<form>
+
+
+
+<div class="input-box">
+
+
+<label>
+Full Name <span>*</span>
+</label>
+
+
+<input 
+type="text"
+placeholder="Enter your full name"
+required>
+
+
+</div>
+
+
+
+
+
+<div class="input-box">
+
+
+<label>
+Roll Number <span>*</span>
+</label>
+
+
+<input 
+type="text"
+placeholder="e.g. 102303xxx"
+required>
+
+
+</div>
+
+
+
+
+
+<div class="input-box">
+
+
+<label>
+Thapar Email ID <span>*</span>
+</label>
+
+
+<input 
+type="email"
+placeholder="yourname@thapar.edu"
+required>
+
+
+<small>
+Use your official Thapar email ID only
+</small>
+
+
+</div>
+
+
+
+
+
+
+<div class="input-box">
+
+
+<label>
+Phone Number
+</label>
+
+
+<input 
+type="tel"
+placeholder="+91 XXXXX XXXXX">
+
+
+</div>
+
+
+
+
+
+
+<button class="continue-btn">
+
+Continue →
+
+</button>
+
+
+
+
+</form>
+
+
+<p class="terms">
+
+By continuing, you agree to use One For All responsibly.
+
+</p>
+
+
+</div>
+
+
+
+</div>
+<script>
+
+document.querySelector("form").addEventListener("submit",function(e){
+
+let email=document.querySelector('input[type="email"]').value;
+
+
+if(!email.endsWith("@thapar.edu")){
+
+alert("Please enter your official Thapar email ID.");
+
+e.preventDefault();
+
+}
+
+
+});
+
+
+</script>
+
+
+
+</body>
+
+</html>
